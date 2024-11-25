@@ -22,8 +22,8 @@ public class Main {
         // This is very common
         // Var is used because Java can determine the type
         for (int i = 0; i < array2.length; i++) {
-            var innterArray = array2[i];
-            for (int j = 0; j < innterArray.length; j++) {
+            var interArray = array2[i];
+            for (int j = 0; j < interArray.length; j++) {
 //              System.out.println(array2[i][j]);
                 array2[i][j] = (i * 10) + (j + 1);
             }
